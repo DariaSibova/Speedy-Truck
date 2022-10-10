@@ -166,3 +166,12 @@ body {
   50%{transform: translateY(3px);}
   100%{}
 }
+
+@keyframes mtn{
+  100%{transform: translateX(-2000px)
+    rotate(130deg);}
+}
+
+@keyframes hill{
+  100%{transform: translateX(-2000px);}
+}
