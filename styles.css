@@ -38,4 +38,14 @@ body{
   bottom: -50px;
   width: 400px;
   border-radius: 50%;
+  height: 20px;
+  box-shadow: 
+  0 0 0 50px #4DB6AC,
+  -20px 0 0 20px #4DB6AC,
+  -90px 0 0 50px #4DB6AC,
+  250px 0 0 50px #4DB6AC,
+  290px 0 0 50px #4DB6AC,
+  620px 0 0 50px #4DB6AC ;
+  animation: hill 4s 2s linear infinite;
 }
+
