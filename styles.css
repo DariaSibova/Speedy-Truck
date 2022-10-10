@@ -148,4 +148,6 @@ body {
 
 @keyframes rock {
   0% { right: -200px;}
+  100%{right: 2000px;}
 }
+
