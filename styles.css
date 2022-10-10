@@ -75,3 +75,18 @@ body{
   position: absolute;
   background: #eee;
 }
+
+.truck{
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/truck.svg) no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+.truck::before{
+  content: "";
+  position: absolute;
+  width: 25px;
+  box-shadow: 
+  -30px 38px 0 1.5px #fff,
+  -35px 18px 0 1.5px #fff;
+}
