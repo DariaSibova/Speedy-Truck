@@ -160,3 +160,9 @@ body {
   11%{transform: translateY(0px);}
   100%{}
 }
+
+@keyframes wind {
+  0%{}
+  50%{transform: translateY(3px);}
+  100%{}
+}
