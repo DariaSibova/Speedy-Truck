@@ -151,3 +151,12 @@ body {
   100%{right: 2000px;}
 }
 
+@keyframes truck {
+  0%{}
+  6%{ transform: translateY(0px)}
+  7%{transform: translateY(-6px);}
+  9%{transform:translateY(0px);}
+  10%{transform: translateY(-1px);}
+  11%{transform: translateY(0px);}
+  100%{}
+}
