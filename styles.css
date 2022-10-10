@@ -49,3 +49,11 @@ body{
   animation: hill 4s 2s linear infinite;
 }
 
+.tree, .tree:nth-child(2),
+.tree:nth-child(3){
+  position: absolute;
+  height: 100px;
+  width: 35px;
+  bottom: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/tree.svg) no-repeat;
+}
