@@ -116,3 +116,9 @@ body{
   50% {}
   100% {transform: translate(-50px);}
 }
+
+@keyframes tree3{
+  0% {transform: translate(2750px);}
+  50%{}
+  100%{transform: translate(-50px);}
+}
