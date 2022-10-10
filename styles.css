@@ -28,4 +28,14 @@ body{
   250px 250px 0 50px #4DB6AC,
   320px 400px 0 50px #4DB6AC
   ;
+  transform: rotate(130deg);
+  animation: mtn 20s linear infinite;
+}
+
+.hill{
+  position: absolute;
+  right: -900px;
+  bottom: -50px;
+  width: 400px;
+  border-radius: 50%;
 }
